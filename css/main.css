@@ -1,0 +1,106 @@
+/*darken and lighten i main
+  color: darken/lighten($red, 10%)*/
+/*orange*/
+/*white*/
+/*black*/
+/*consumer focus*/
+/*enterprise focus*/
+/*mixture*/
+/*mix with white*/
+/*backgrounds, graphics, pictograms, dot patterns, charts and diagrams/large size text.*/
+/*For typography, particularly body copy.*/
+/*Text grey is used for small size headings, sub-headings and body copy text only.*/
+/*@mixin transform($property) {
+  -webkit-transform: $property;
+      -ms-transform: $property;
+          transform: $property;
+}
+
+.box { @include transform(rotate(30deg)); }*/
+/* line 13, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+body {
+  background-color: #ffffff;
+  color: #333333;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* line 18, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+body img {
+  display: block;
+}
+
+/* line 23, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+#infobox {
+  display: grid;
+  grid-gap: 10px;
+}
+
+/* line 28, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+.item1 {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+
+/* line 32, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+.item2 {
+  grid-column: 2;
+  grid-row: 2 / span 1;
+  width: 70%;
+  padding-left: 15%;
+}
+
+/* line 38, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+.item3 {
+  grid-column: 1;
+  grid-row: 2 / span 1;
+  padding-left: 5%;
+}
+
+/* line 45, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+header {
+  margin: 10px 0px 10px 0px;
+  background-color: #e95420;
+}
+
+/* line 49, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 56, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+article {
+  border: solid 1px transparent;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+/* line 62, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+#tilmed {
+  background-color: #f4f3f2;
+}
+
+/* line 66, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+#nyheder {
+  background-color: #77216f;
+  color: #ffffff;
+}
+
+/* line 70, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+#links {
+  background-color: #5e2750;
+  color: #ffffff;
+}
+
+/* line 74, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+#links img {
+  display: inline-block;
+}
+
+/* line 79, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+#cloud {
+  background-color: #f4f3f2;
+}
+
+/*# sourceMappingURL=../css/main.map */

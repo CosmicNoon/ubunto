@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/_color.scss",
+		"../scss/_font.scss",
+		"../scss/_variable.scss"
+	],
+	"sourcesContent": [
+		"@import 'color';\r\n@import 'font';\r\n@import 'variable';\r\n\r\n/*@mixin transform($property) {\r\n  -webkit-transform: $property;\r\n      -ms-transform: $property;\r\n          transform: $property;\r\n}\r\n\r\n.box { @include transform(rotate(30deg)); }*/\r\n\r\nbody {\r\n  background-color: $white;\r\n  color: $cgrey;\r\n  font-family: $default;\r\n\r\n  img{\r\n    display: block;\r\n  }\r\n}\r\n\r\n#infobox{\r\n  display: grid;\r\n  grid-gap: 10px;\r\n}\r\n\r\n  .item1 {\r\n  grid-column: 1 / span 3;\r\n  grid-row: 1;\r\n}\r\n.item2 {\r\n  grid-column: 2;\r\n  grid-row: 2 / span 1;\r\n  width: 70%;\r\n  padding-left: 15%;\r\n}\r\n.item3 {\r\n  grid-column: 1;\r\n  grid-row: 2 / span 1;\r\n  padding-left: 5%;\r\n}\r\n\r\n\r\nheader {\r\n  margin: $marginh;\r\n  background-color: $orange;\r\n\r\n  img{\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n  }\r\n}\r\n\r\narticle{\r\n  border: $border;\r\n  border-radius: $borderr;\r\n  margin: $margin;\r\n}\r\n\r\n#tilmed{\r\n  background-color: lighten($wgrey, 30%);\r\n}\r\n\r\n#nyheder{\r\n  background-color: $lau;\r\n  color: $white;\r\n}\r\n#links{\r\n  background-color: $aub;\r\n  color: $white;\r\n\r\n  img{\r\n    display: inline-block;\r\n  }\r\n}\r\n\r\n#cloud{\r\n  background-color: lighten($wgrey, 30%);\r\n}\r\n",
+		"/*darken and lighten i main\r\n  color: darken/lighten($red, 10%)*/\r\n\r\n$orange: #e95420; /*orange*/\r\n$white: #ffffff; /*white*/\r\n$black: #000000; /*black*/\r\n\r\n$lau: #77216f; /*consumer focus*/\r\n$aub: #5e2750; /*enterprise focus*/\r\n$dau: #2c001e; /*mixture*/\r\n$cau: #772953; /*mix with white*/\r\n\r\n$wgrey: #aea79f; /*backgrounds, graphics, pictograms, dot patterns, charts and diagrams/large size text.*/\r\n$cgrey: #333333; /*For typography, particularly body copy.*/\r\n$tgrey: #111111; /*Text grey is used for small size headings, sub-headings and body copy text only.*/\r\n",
+		"$default: 'Ubuntu', sans-serif;\r\n\r\n$Condensed: 'Ubuntu Condensed', sans-serif;\r\n\r\n$mono: 'Ubuntu Mono', monospace;\r\n",
+		"$margin: 15px;\r\n\r\n$marginh: 10px 0px 10px 0px;\r\n\r\n\r\n$border: solid 1px transparent;\r\n$borderr: 10px;\r\n"
+	],
+	"mappings": "ACAA;oCACoC;AAElB,UAAU;AACX,SAAS;AACT,SAAS;AAEX,kBAAkB;AAClB,oBAAoB;AACpB,WAAW;AACX,kBAAkB;AAEhB,yFAAyF;AACzF,2CAA2C;AAC3C,oFAAoF;ADVrG;;;;;;6CAM6C;;AAE7C,AAAA,IAAI,CAAC;EACH,gBAAgB,ECTV,OAAO;EDUb,KAAK,ECDC,OAAO;EDEb,WAAW,EEfH,QAAQ,EAAE,UAAU;CFoB7B;;;AARD,AAKE,IALE,CAKF,GAAG,CAAA;EACD,OAAO,EAAE,KAAM;CAChB;;;AAGH,AAAA,QAAQ,CAAA;EACN,OAAO,EAAE,IAAK;EACd,QAAQ,EAAE,IAAK;CAChB;;;AAEC,AAAA,MAAM,CAAC;EACP,WAAW,EAAE,UAAW;EACxB,QAAQ,EAAE,CAAE;CACb;;;AACD,AAAA,MAAM,CAAC;EACL,WAAW,EAAE,CAAE;EACf,QAAQ,EAAE,UAAW;EACrB,KAAK,EAAE,GAAI;EACX,YAAY,EAAE,GAAI;CACnB;;;AACD,AAAA,MAAM,CAAC;EACL,WAAW,EAAE,CAAE;EACf,QAAQ,EAAE,UAAW;EACrB,YAAY,EAAE,EAAG;CAClB;;;AAGD,AAAA,MAAM,CAAC;EACL,MAAM,EG3CE,IAAI,CAAC,GAAG,CAAC,IAAI,CAAC,GAAG;EH4CzB,gBAAgB,EC3CT,OAAO;CDkDf;;;AATD,AAIE,MAJI,CAIJ,GAAG,CAAA;EACD,OAAO,EAAE,KAAM;EACf,WAAW,EAAE,IAAK;EAClB,YAAY,EAAE,IAAK;CACpB;;;AAGH,AAAA,OAAO,CAAA;EACL,MAAM,EGnDC,KAAK,CAAC,GAAG,CAAC,WAAW;EHoD5B,aAAa,EGnDL,IAAI;EHoDZ,MAAM,EG1DC,IAAI;CH2DZ;;;AAED,AAAA,OAAO,CAAA;EACL,gBAAgB,EAAE,OAAO;CAC1B;;;AAED,AAAA,QAAQ,CAAA;EACN,gBAAgB,EC3DZ,OAAO;ED4DX,KAAK,EC/DC,OAAO;CDgEd;;;AACD,AAAA,MAAM,CAAA;EACJ,gBAAgB,EC9DZ,OAAO;ED+DX,KAAK,ECnEC,OAAO;CDwEd;;;AAPD,AAIE,MAJI,CAIJ,GAAG,CAAA;EACD,OAAO,EAAE,YAAa;CACvB;;;AAGH,AAAA,MAAM,CAAA;EACJ,gBAAgB,EAAE,OAAO;CAC1B",
+	"names": []
+}
