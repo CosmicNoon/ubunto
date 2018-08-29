@@ -1,0 +1,18 @@
+@import 'color';
+@import 'font';
+
+/*@mixin transform($property) {
+  -webkit-transform: $property;
+      -ms-transform: $property;
+          transform: $property;
+}
+
+.box { @include transform(rotate(30deg)); }*/
+
+header{
+  background-color: $orange;
+}
+
+body{
+  background-color: blue;
+}
