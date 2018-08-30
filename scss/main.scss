@@ -13,34 +13,43 @@ body {
 }
 
 #infobox{
+  background-image: url("https://www.visitcopenhagen.com/sites/default/files/asp/visitcopenhagen/Corporate/TUT2018/oksnehallen_1700x600.png");
   display: grid;
   grid-gap: 10px;
+  grid-template-columns: 30% 50%;
+  color: $white;
+  height: 500px;
+  padding-left: 15px;
+  padding-top: 5%;
+  a{
+    color: $orange;
+    text-decoration: none;
+  }
 }
 
-  .item1 {
-  grid-column: 1 / span 3;
-  grid-row: 1;
-}
-.item2 {
-  grid-column: 2;
-  grid-row: 2 / span 1;
-  width: 70%;
-  padding-left: 15%;
-}
-.item3 {
-  grid-column: 1;
-  grid-row: 2 / span 1;
-  padding-left: 5%;
+.grid1 p{
+  background-color: $orange;
+  padding: 1%;
+  font-size: 110%;
 }
 
 header {
   margin: $marginh;
+  background-image: url("../img/png/ubuntu_white-orange.png");
   background-color: $orange;
+  padding: $fifteen;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
 
-  img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  h2{
+    float: right;
+    margin-left: 15px;
+  }
+  a{
+    color: $white;
+    text-decoration: none;
+    font-size: 120%;
   }
 }
 
@@ -52,11 +61,29 @@ article{
 
 #tilmed{
   background-color: lighten($wgrey, 30%);
+  padding: 15px;
+  h1{
+    text-align: center;
+  }
 }
 
-#nyheder{
-  background-color: $lau;
-  color: $white;
+.gridsimple{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.nyheder{
+  background-color: lighten($wgrey, 30%);
+  color: $tgrey;
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15%;
+  grid-column-gap: 5%;
+  padding: 1% 2%;
+
+  h3{
+    color: $orange;
+    text-align:center;
+  }
 }
 
 #links{
@@ -66,33 +93,18 @@ article{
   grid-template-columns: 50% 50%;
   grid-column-gap: 0%;
   text-align: center;
+  padding: 15px;
   img{
     display: inline-block;
-    width: 50%;
+    width: 20%;
+    height: 20%;
   }
 }
 
-#cloud{
-  background-color: lighten($wgrey, 30%);
-  display: grid;
-  grid-template-columns: 15% 15% 15% 15% 15%;
-  grid-column-gap: 5%;
-  color: transparent;
-  height: 150px;
-
-  #sky{
-    @include cloud;
-  }
-  #server{
-    @include server;
-  }
-  #cube{
-    @include cube;
-  }
-  #desktop{
-    @include desktop;
-  }
-  #iot{
-    @include iot;
-  }
+footer {
+  background-color: $orange;
+  padding: $fifteen;
+  color: $white;
+  width: 97%;
+  margin: auto;
 }
