@@ -2,14 +2,6 @@
 @import 'font';
 @import 'variable';
 
-/*@mixin transform($property) {
-  -webkit-transform: $property;
-      -ms-transform: $property;
-          transform: $property;
-}
-
-.box { @include transform(rotate(30deg)); }*/
-
 body {
   background-color: $white;
   color: $cgrey;
@@ -41,7 +33,6 @@ body {
   padding-left: 5%;
 }
 
-
 header {
   margin: $marginh;
   background-color: $orange;
@@ -67,15 +58,41 @@ article{
   background-color: $lau;
   color: $white;
 }
+
 #links{
   background-color: $aub;
   color: $white;
-
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 0%;
+  text-align: center;
   img{
     display: inline-block;
+    width: 50%;
   }
 }
 
 #cloud{
   background-color: lighten($wgrey, 30%);
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15%;
+  grid-column-gap: 5%;
+  color: transparent;
+  height: 150px;
+
+  #sky{
+    @include cloud;
+  }
+  #server{
+    @include server;
+  }
+  #cube{
+    @include cube;
+  }
+  #desktop{
+    @include desktop;
+  }
+  #iot{
+    @include iot;
+  }
 }
