@@ -109,18 +109,20 @@ article {
   background-color: #f4f3f2;
   color: #111111;
   display: grid;
+  justify-items: center;
   grid-template-columns: 15% 15% 15% 15%;
   grid-column-gap: 5%;
   padding: 1% 2%;
+  padding-left: 18%;
 }
 
-/* line 91, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 92, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 .nyheder h3 {
   color: #e95420;
   text-align: center;
 }
 
-/* line 97, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 98, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #links {
   background-color: #5e2750;
   color: #ffffff;
@@ -131,14 +133,14 @@ article {
   padding: 15px;
 }
 
-/* line 105, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 106, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #links img {
   display: inline-block;
   width: 20%;
   height: 20%;
 }
 
-/* line 112, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 113, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 footer {
   background-color: #e95420;
   padding: 15px;
@@ -147,7 +149,7 @@ footer {
   margin: auto;
 }
 
-/* line 120, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 121, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #program {
   background-color: #5e2750;
   display: grid;
@@ -156,34 +158,41 @@ footer {
   grid-gap: 5%;
 }
 
-/* line 126, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 127, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #program div {
   margin: 1%;
   background-color: #f4f3f2;
-  padding-left: 11%;
-  padding-right: 10%;
+  padding-left: 8%;
+  padding-right: 7%;
   padding-bottom: 10%;
   padding-top: 2%;
   border-radius: 10px;
-  width: 40%;
+  width: 56%;
+  text-align: center;
 }
 
-/* line 136, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 138, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #program h1, #program h3 {
   text-transform: capitalize;
   color: #111111;
 }
 
-/* line 140, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 142, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #program h3 {
   font-size: 170%;
 }
 
-/* line 143, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 145, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #program a {
   color: #111111;
   font-size: 120%;
   text-transform: capitalize;
+}
+
+/* line 150, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+#program #daylink {
+  font-size: 70%;
+  display: block;
 }
 
 /*# sourceMappingURL=../css/main.map */
