@@ -152,15 +152,38 @@ footer {
   background-color: #5e2750;
   display: grid;
   justify-items: center;
-  grid-template-columns: 30% 30%;
+  grid-template-columns: 45% 45%;
   grid-gap: 5%;
 }
 
 /* line 126, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #program div {
+  margin: 1%;
   background-color: #f4f3f2;
-  padding: 10%;
+  padding-left: 11%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+  padding-top: 2%;
   border-radius: 10px;
+  width: 40%;
+}
+
+/* line 136, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+#program h1, #program h3 {
+  text-transform: capitalize;
+  color: #111111;
+}
+
+/* line 140, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+#program h3 {
+  font-size: 170%;
+}
+
+/* line 143, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+#program a {
+  color: #111111;
+  font-size: 120%;
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=../css/main.map */
