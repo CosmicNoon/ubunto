@@ -151,14 +151,16 @@ footer {
 
 /* line 121, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #program {
-  background-color: #5e2750;
+  background-color: #ee784e;
+  border: 2px solid;
+  border-color: #f29b7d;
   display: grid;
   justify-items: center;
   grid-template-columns: 45% 45%;
   grid-gap: 5%;
 }
 
-/* line 127, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 129, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #program div {
   margin: 1%;
   background-color: #f4f3f2;
@@ -171,25 +173,25 @@ footer {
   text-align: center;
 }
 
-/* line 138, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 140, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #program h1, #program h3 {
   text-transform: capitalize;
   color: #111111;
 }
 
-/* line 142, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 144, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #program h3 {
   font-size: 170%;
 }
 
-/* line 145, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 147, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #program a {
   color: #111111;
   font-size: 120%;
   text-transform: capitalize;
 }
 
-/* line 150, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 152, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #program #daylink {
   font-size: 70%;
   display: block;

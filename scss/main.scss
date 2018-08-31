@@ -119,7 +119,9 @@ footer {
 }
 
 #program{
-  background-color:$aub;
+  background-color: lighten($orange, 10%);
+  border: 2px solid;
+  border-color: lighten($orange, 20%);
   display: grid;
   justify-items: center;
   grid-template-columns: 45% 45%;
