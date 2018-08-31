@@ -2,6 +2,13 @@
 @import 'font';
 @import 'variable';
 
+.current{
+  background-color: darken($orange, 10%);
+  padding: 5px;
+  padding-bottom: 10%;
+  border-radius: $borderr;
+}
+
 body {
   background-color: $white;
   color: $cgrey;
@@ -41,6 +48,7 @@ header {
   height: 100px;
   background-repeat: no-repeat;
   background-size: contain;
+  margin-bottom: 2%;
 
   h2{
     float: right;
@@ -107,4 +115,17 @@ footer {
   color: $white;
   width: 97%;
   margin: auto;
+}
+
+#program{
+  background-color:$aub;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 30% 30%;
+  grid-gap: 5%;
+  div{
+    background-color: lighten($wgrey, 30%);
+    padding: 10%;
+    border-radius: $borderr;
+  }
 }

@@ -1,0 +1,21 @@
+@import 'color';
+@import 'font';
+@import 'variable';
+
+button{
+  width: 10%;
+  background-color: #e95420;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#tside1, #tside2, #tside3, #tside4, #tside5, #tside6, #tside7{
+  display: block;
+}
+#side1, #side2, #side3, #side4, #side5, #side6, #side7{
+  display: none;
+}

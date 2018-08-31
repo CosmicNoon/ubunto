@@ -11,18 +11,26 @@
 /*For typography, particularly body copy.*/
 /*Text grey is used for small size headings, sub-headings and body copy text only.*/
 /* line 5, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+.current {
+  background-color: #c34113;
+  padding: 5px;
+  padding-bottom: 10%;
+  border-radius: 10px;
+}
+
+/* line 12, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 body {
   background-color: #ffffff;
   color: #333333;
   font-family: "Ubuntu", sans-serif;
 }
 
-/* line 10, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 17, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 body img {
   display: block;
 }
 
-/* line 15, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 22, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #infobox {
   background-image: url("https://www.visitcopenhagen.com/sites/default/files/asp/visitcopenhagen/Corporate/TUT2018/oksnehallen_1700x600.png");
   display: grid;
@@ -34,20 +42,20 @@ body img {
   padding-top: 5%;
 }
 
-/* line 24, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 31, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #infobox a {
   color: #e95420;
   text-decoration: none;
 }
 
-/* line 30, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 37, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 .grid1 p {
   background-color: #e95420;
   padding: 1%;
   font-size: 110%;
 }
 
-/* line 36, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 43, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 header {
   margin: 10px 0px 10px 0px;
   background-image: url("../img/png/ubuntu_white-orange.png");
@@ -56,46 +64,47 @@ header {
   height: 100px;
   background-repeat: no-repeat;
   background-size: contain;
+  margin-bottom: 2%;
 }
 
-/* line 45, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 53, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 header h2 {
   float: right;
   margin-left: 15px;
 }
 
-/* line 49, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 57, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 header a {
   color: #ffffff;
   text-decoration: none;
   font-size: 120%;
 }
 
-/* line 56, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 64, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 article {
   border: solid 1px transparent;
   border-radius: 10px;
   margin: 5px 15px 25px 15px;
 }
 
-/* line 62, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 70, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #tilmed {
   background-color: #f4f3f2;
   padding: 15px;
 }
 
-/* line 65, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 73, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #tilmed h1 {
   text-align: center;
 }
 
-/* line 70, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 78, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 .gridsimple {
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
-/* line 75, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 83, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 .nyheder {
   background-color: #f4f3f2;
   color: #111111;
@@ -105,13 +114,13 @@ article {
   padding: 1% 2%;
 }
 
-/* line 83, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 91, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 .nyheder h3 {
   color: #e95420;
   text-align: center;
 }
 
-/* line 89, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 97, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #links {
   background-color: #5e2750;
   color: #ffffff;
@@ -122,20 +131,36 @@ article {
   padding: 15px;
 }
 
-/* line 97, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 105, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 #links img {
   display: inline-block;
   width: 20%;
   height: 20%;
 }
 
-/* line 104, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+/* line 112, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
 footer {
   background-color: #e95420;
   padding: 15px;
   color: #ffffff;
   width: 97%;
   margin: auto;
+}
+
+/* line 120, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+#program {
+  background-color: #5e2750;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 30% 30%;
+  grid-gap: 5%;
+}
+
+/* line 126, C:/Users/Eevee/Documents/GitHub/ubunto/scss/main.scss */
+#program div {
+  background-color: #f4f3f2;
+  padding: 10%;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=../css/main.map */

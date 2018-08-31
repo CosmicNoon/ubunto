@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "UTF-8">
+  <title>Ubuntu</title>
+  <link rel ="stylesheet" type ="text/css" href ="css/main.css"/>
+  <!--<link rel ="stylesheet" type ="text/css" href ="css/w3.css"/>-->
+    <link rel ="stylesheet" type ="text/css" href ="css/form.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed|Ubuntu+Mono" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h2><a href="event.html">Event info</a></h2>
+    <h2><a href="program.html">Program</a></h2>
+    <h2><a href="index.html">Home</a></h2>
+</header>
+  <main>
+
+  <article id="tilmed">
+      <h1>Join our event?</h1>
+      <section class="gridsimple">
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+  <br>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.
+  <br>Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+</div><div>
+
+    <form id="contactform" method="POST">
+        <fieldset>
+            <label for="firstname">Fornavn(e):</label>
+            <input type="text" name="firstname" id="firstname" placeholder="Indtast dit fornavn" value="" /><br />
+            <label for="lastname">Efternavn(e):</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Indtast dit efternavn" value="" /><br />
+            <label for="adress">Adresse:</label>
+            <input type="text" name="adress" id="adress" placeholder="Indtast din adresse" value="" /><br />
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="dk">Denmark</option>
+              <option value="eu">Europe</option>
+              <option value="asia">Asia</option>
+              <option value="usa">USA</option>
+            </select><br />
+
+            <label for="email">E-mail:</label>
+            <input type="text" name="email" id="email" placeholder="Indtast din e-mail" value="" /><br />
+            <input type="radio" name="iot" value="iot" checked> IoT
+            <input type="radio" name="desktop" value="desktop"> Desktop<br /><br />
+
+            <input type="checkbox" name="mandag" value="man"> Mandag
+            <input type="checkbox" name="tirsdag" value="tirs"> Tirsdag
+            <input type="checkbox" name="onsdag" value="ons"> Onsdag
+            <input type="checkbox" name="torsdag" value="tors"> Torsdag
+            <input type="checkbox" name="fredag" value="fre"> Fredag
+            <input type="checkbox" name="lordag" value="lor"> Lørdag
+            <input type="checkbox" name="sondag" value="son"> Søndag<br />
+
+            <button type="button" onclick="validate_dom(this.form)">Submit</button>
+        </fieldset>
+    </form>
+        </div>
+      </section></article>
+
+    <article id="links"><div>
+      <a href="https://www.ubuntu.com/internet-of-things">
+        <img src="https://assets.ubuntu.com/v1/c37a4f6c-pictogram-internet-orange.svg" alt="iot" width="20%">
+          </a>
+<h1>Internet of Things</h1></div><div>
+
+          <a href="https://www.ubuntu.com/desktop">
+            <img src="https://assets.ubuntu.com/v1/f68d8303-pictogram-core_power-orange.svg" alt="desktop" width="20%">
+              </a>
+<h1>Desktop</h1></div>
+
+    </article>
+
+</main>
+<footer>woop</footer>
+<script src="script.js"></script>
+</body>

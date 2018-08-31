@@ -65,9 +65,9 @@ function validate_dom(form_object) {
     }
 
     //Hvis tlf ikke er udfyldt
-    if(!form_object.phone.value) {
+    if(!form_object.adress.value) {
           //Kalder funktion til visning af fejl
-          display_error(form_object.phone, "Du skal udfylde dit telefon nummer!");
+          display_error(form_object.adress, "Du skal udfylde din adresse!");
           //Returner false og afbryd scriptet
           return false;
     }
